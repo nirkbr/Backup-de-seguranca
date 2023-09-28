@@ -21,21 +21,11 @@
     cursor: pointer;
 }
 
- .Conteudo{
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff; 
-    border-radius: 30px;
-    text-align: center;
-}
-
 section{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width:100%;
  }
 
 .Navbar__ToggleShow {
