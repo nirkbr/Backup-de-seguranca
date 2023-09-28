@@ -21,6 +21,9 @@
     cursor: pointer;
 }
 
+.Navbar__ToggleShow {
+    display: flex;
+  }
 
 .Titulos{
   justify-content: center;
@@ -34,38 +37,32 @@
     width: 40%;
 }
 
+.Titulos{
+  font-size: 30px;
+}
+
 .Img-Carrosel{
   display: flex;
   justify-content: center;
-  width: 90%;
+  margin-left: 30px;
+  width: 80%;
+  align-items: center;
 }
 
 .Textos{
   display: flex;
   justify-content: center;
+  flex-direction: column;
   margin-left: 15px;
   font-size: 12px;
 }
 
-.Navbar__ToggleShow {
-    display: flex;
-    font-size: 18px;
-  }
-   
-
-.Imagens{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.Graficos{
+width: 180px;
+height: 60%;
 }
 
-.NossosComponentes{
-    display: flex;
-    flex-direction: column;
-    width: 339px;
-}
-
-.Textos{
-  margin-left: 15px;
+video{
+  width: 70%;
+  height: 50%;
 }

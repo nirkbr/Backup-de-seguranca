@@ -116,11 +116,11 @@ section{
 .Titulos h1{
     color: #527b9f;
     font-family: 'Jost', sans-serif;   
-    font-size: 60px;  
+    font-size: 40px;  
 }
 
 .Conteudo{
-    width: 60%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -130,9 +130,6 @@ section{
     text-align: center;
 }
 
-.Grafico{
-width: 70%;
-}
 
 .Img-Carrosel{
   width: 90%;
@@ -160,7 +157,6 @@ width: 70%;
 display: flex;
 align-items: center;
 width: 10%;
-
 }
 
 .NossosComponentes{
