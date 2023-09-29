@@ -151,12 +151,18 @@ section{
     align-items: center;
     justify-content: center;
     border: #527b9f;
+   
 }
 
 #Imagem{
 display: flex;
 align-items: center;
 width: 10%;
+}
+
+.Grafico-Fatalidades{
+  margin-left: 15%;
+  width: 75%;
 }
 
 .NossosComponentes{
