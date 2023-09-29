@@ -25,20 +25,22 @@
     display: flex;
   }
 
-.Titulos{
-  justify-content: center;
+.Conteudo{
+  width: 80%;
 }
 
-.Imagens{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.Titulos{
+    font-size: 20px;
     justify-content: center;
-    width: 40%;
 }
 
-.Titulos{
-  font-size: 30px;
+figure{
+  width: 105%;
+}
+
+figcaption{
+font-size: 0.9em;
+width: 80%;
 }
 
 .Img-Carrosel{
@@ -48,6 +50,12 @@
   width: 80%;
   align-items: center;
 }
+
+.Imagens{
+  margin-left: 30px;
+  width: 80%;
+}
+
 
 .Textos{
   display: flex;

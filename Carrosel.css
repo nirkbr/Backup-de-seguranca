@@ -9,21 +9,20 @@
   
   .carousel-button {
     /* vertically centering the buttons */
-     position: absolute; 
+      position: absolute; 
       top: 40%;
       transform: translateY(-50%);
 
   
     /* basic styling */
-    padding: 0;
-    margin: 0.5rem;
-    border-radius: 50%;
-    background-color: white;
-    border: none;
-    font-size: 1.5rem;
-    cursor: pointer;
-    transition: color 0.1s;
-    z-index: 1;
+      padding: 0;
+      margin: 0.5rem;
+      border-radius: 50%;
+      border: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+      transition: color 0.1s;
+      z-index: 1;
   }
   
   .carousel-button:hover {
@@ -48,12 +47,13 @@
   
   .slide {
     flex: 0 0 100%;
-    
   }
   
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 768px) {
     .carousel-button {
       font-size: 2rem;
       margin: 1rem;
+      top: 20%;
+     
     }
   }
