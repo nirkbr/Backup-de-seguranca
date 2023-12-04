@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-
+  box-sizing: border-box;
 }
 
 .material-symbols-sharp {
@@ -28,15 +28,30 @@
   'opsz' 24
 }
 
+.Container{
+ display: flex;
+ justify-content: space-between;
+}
+.Logo{
+  font: 20px;
+  font-family: 'Muli',sans-serif;
+}
+
 .corpo{
     display: flex;
     align-items: center;
-    flex-direction: column;
-    background-color: #ebe8e8;
+    flex-direction: column;  
+}
+body{
+  background-color: #ebe8e8;
 }
 
 .Menu{
-  color: #527b9f;;
+  color: rgb(222, 220, 223);
+}
+.Menu:hover{
+  transition: 1s;
+  color: rgb(245, 248, 248);
 }
 
 figure{
@@ -49,24 +64,33 @@ figcaption{
 }
 
 .Navbar{
-  background-color: #ebe8e8;
   display: flex;
   padding: 16px;
   font-family: sans-serif;
-  color: rgb(0, 0, 0);
+  color:rgb(28, 78, 121);
+  position: absolute;
+  right: 5px;
 }
 
 .Navbar_Itens{
   display: flex;
+  background-color: rgb(75, 75, 78);
+  margin-right: 28px;
+  margin-top: 19px;
 }
 
 .Navbar_Link{
-  padding-right: 8px;
-  margin-top: 10px;
+  padding-right: 16px;
+  padding-top: 18px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+}
+.Navbar_Link>a{
+  text-decoration: none;
 }
 .Navbar_Link:hover{
-  transition: 2ms;
-  color:#527b9f;
+  transition: 1s;
+  background-color: #1b4366;
 }
 
 .Navbar_Items--right{
@@ -120,7 +144,7 @@ section{
 }
 
 .Conteudo{
-    width: 75%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
